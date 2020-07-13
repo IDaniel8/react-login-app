@@ -1,0 +1,28 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry"
+      }
+    ],
+    "@babel/preset-typescript",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "~": "./src",
+          "@assets": "./src/assets",
+          "@store": "./src/store",
+          "@utils": "./src/utils",
+          "@containers": "./src/containers",
+          "@components": "./src/components"
+        }
+      }
+    ]
+  ]
+}

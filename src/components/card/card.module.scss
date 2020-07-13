@@ -1,0 +1,26 @@
+@import "../../assets/scss/variables";
+
+.card_container {
+  min-height: inherit;
+  height: 100%;
+  background: $background-body-card;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,.2);
+  -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,.2);
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,.2);
+}
+
+.card_header {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  padding: 36px 40px;
+  background: $background-header-card;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.card_body {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  padding: 20px 40px;
+}

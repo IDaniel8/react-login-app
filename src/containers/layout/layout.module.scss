@@ -1,0 +1,21 @@
+@import "../../assets/scss/variables";
+
+.layout_panel {
+   position: absolute;
+   width: calc(100% - #{$sidebar-width});
+   height: 100%;
+   left: $sidebar-width;
+   padding: 0 10px;
+
+   &_user {
+     height: $layout-userbadget-height;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+   }
+
+   &_card {
+     min-height: calc(100vh - #{$layout-userbadget-height} - 20px);
+     padding: 10px 0;
+   }
+  }

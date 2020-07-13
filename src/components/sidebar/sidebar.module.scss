@@ -1,0 +1,38 @@
+@import "../../assets/scss/variables";
+
+.sidebar {
+    position: fixed;
+    width: $sidebar-width;
+    height: 100%;
+    float: left;
+    padding: 0 20px;
+
+    &_brand {
+      display: flex;
+      text-transform: capitalize;
+      align-items: center;
+      height: $layout-userbadget-height;
+      padding-left: 20px;
+  }
+
+    &_items_container {
+      display: flex;
+      flex-direction: column;
+      padding-top: 40px;
+      padding-left: 20px;
+    }
+
+    &_item {
+      text-decoration: none;
+      text-align: left;
+      text-transform: capitalize;
+      padding: 10px 0;
+      color: $color-sidebar-link;
+      & i {
+        padding-right: 10px;
+      }
+      &_active {
+        background-color: $background-primary;
+      }
+    }
+}

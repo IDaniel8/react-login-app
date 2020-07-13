@@ -1,0 +1,14 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: $background-secondary;
+  font-family: Helvetica, sans-serif;
+}

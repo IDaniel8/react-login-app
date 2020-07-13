@@ -1,0 +1,14 @@
+@import "../../assets/scss/variables";
+
+.user_container {
+  text-align: right;
+}
+
+.user_main {
+  font-weight: 700;
+  color: $color-black;
+}
+
+.user_role {
+  color: $color-sidebar-link;
+}
